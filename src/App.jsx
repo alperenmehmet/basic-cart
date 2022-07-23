@@ -1,10 +1,7 @@
 import React from 'react'
 import {useGlobalContext} from './context.jsx'
-
-// components
 import Navbar from './components/Navbar.jsx'
 import CartContainer from './components/CartContainer.jsx'
-// items
 
 const App = () => {
   const {loading} = useGlobalContext()
